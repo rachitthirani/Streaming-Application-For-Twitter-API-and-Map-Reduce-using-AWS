@@ -1,0 +1,12 @@
+curl -O https://bootstrap.pypa.io/get-pip.py
+python get-pip.py --user
+export PATH=~/.local/bin:$PATH
+source ~/.profile
+pip install awscli --upgrade --user
+sudo apt-get install python-setuptools python-dev build-essential
+sudo easy_install pip
+sudo pip install --upgrade virtualenv
+sudo pip install TwitterAPI
+sudo pip install boto3
+sudo pip install http
+sudo pip install tmux

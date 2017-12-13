@@ -1,0 +1,78 @@
+null - id_str
+null - lang
+user - id
+user - name
+user - time_zone
+user - friends_count
+user - screen_name
+user - statuses_count
+user - favourites_count
+user - description
+place - country
+place - country_code
+place - full_name
+bounding_box - place_type
+null - rel (may be its what type of device is being used to send tweet)
+null - text (actual tweet)
+
+
+,
+        {
+            'AttributeName': 'lang',
+            'AttributeType': 'S',
+        },
+        {
+            'AttributeName': 'user',
+            'AttributeType': 'S',
+        },
+        {
+            'AttributeName': 'name',
+            'AttributeType': 'S',
+        },
+        {
+            'AttributeName': 'country',
+            'AttributeType': 'S',
+        },
+        {
+            'AttributeName': 'country_code',
+            'AttributeType': 'S',
+        },
+        {
+            'AttributeName': 'full_name',
+            'AttributeType': 'S',
+        },
+        {
+            'AttributeName': 'place_type',
+            'AttributeType': 'S',
+        },
+        {
+            'AttributeName': 'timezone',
+            'AttributeType': 'S',
+        },
+        {
+            'AttributeName': 'friends_count',
+            'AttributeType': 'S',
+        },
+        {
+            'AttributeName': 'screen_name',
+            'AttributeType': 'S',
+        },
+        {
+            'AttributeName': 'statuses_count',
+            'AttributeType': 'N',
+        },
+        {
+            'AttributeName': 'favourites_count',
+            'AttributeType': 'N',
+        },
+        {
+            'AttributeName': 'rel',
+            'AttributeType': 'S',
+        },
+        {
+            'AttributeName': 'text',
+            'AttributeType': 'S',
+        },
+
+
+b'{"text": "GAMEDAY vs. Landstede Zwolle at 5Meihal 8pm. Let\\u2019s get this win to claim the #1 spot\\ud83c\\udfc0\\u2026 https://t.co/vbEBwxvg7T", "id": 924263712172789760, "entities": {"urls": [{"indices": [87, 110], "display_url": "instagram.com/p/BayT77ygafD/", "url": "https://t.co/vbEBwxvg7T", "expanded_url": "https://www.instagram.com/p/BayT77ygafD/"}], "symbols": [], "hashtags": [], "user_mentions": []}, "filter_level": "low", "favorited": false, "user": {"favourites_count": 363, "notifications": null, "profile_image_url": "http://pbs.twimg.com/profile_images/895554393562656768/9GmQUwv6_normal.jpg", "friends_count": 53, "id": 103667164, "statuses_count": 4786, "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/694583851/2465f539db02a6a1e1a93706783e5461.jpeg", "default_profile_image": false, "profile_image_url_https": "https://pbs.twimg.com/profile_images/895554393562656768/9GmQUwv6_normal.jpg", "description": "Amsterdam \\u274c\\u274c\\u274c \\u2022 Professional Basketballplayer \\u2022 Orange Lions | ZZ Leiden \\u2022 Maintain focus to achieve goals", "location": "Amsterdam", "verified": false, "listed_count": 18, "profile_use_background_image": true, "geo_enabled": true, "profile_background_color": "131516", "id_str": "103667164", "is_translator": false, "profile_banner_url": "https://pbs.twimg.com/profile_banners/103667164/1474699912", "following": null, "followers_count": 1161, "time_zone": "Amsterdam", "default_profile": false, "follow_request_sent": null, "contributors_enabled": false, "profile_text_color": "333333", "protected": false, "profile_sidebar_border_color": "FFFFFF", "translator_type": "none", "screen_name": "JesseyAnthony", "utc_offset": 7200, "profile_sidebar_fill_color": "DDEEF6", "lang": "en", "name": "Jessey Anthony Voorn", "profile_link_color": "FF0000", "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/694583851/2465f539db02a6a1e1a93706783e5461.jpeg", "profile_background_tile": false, "created_at": "Sun Jan 10 21:08:57 +0000 2010", "url": "http://youtu.be/0EZe0nlfX2o"}, "in_reply_to_status_id": null, "truncated": false, "timestamp_ms": "1509196615628", "quote_count": 0, "reply_count": 0, "retweet_count": 0, "id_str": "924263712172789760", "coordinates": {"coordinates": [4.8922, 52.3731], "type": "Point"}, "contributors": null, "geo": {"coordinates": [52.3731, 4.8922], "type": "Point"}, "source": "<a href=\\"http://instagram.com\\" rel=\\"nofollow\\">Instagram</a>", "in_reply_to_screen_name": null, "place": {"country": "The Netherlands", "bounding_box": {"coordinates": [[[4.7289, 52.278227], [4.7289, 52.431229], [5.079207, 52.431229], [5.079207, 52.278227]]], "type": "Polygon"}, "country_code": "NL", "name": "Amsterdam", "full_name": "Amsterdam, The Netherlands", "place_type": "city", "id": "99cdab25eddd6bce", "attributes": {}, "url": "https://api.twitter.com/1.1/geo/id/99cdab25eddd6bce.json"}, "in_reply_to_user_id": null, "possibly_sensitive": false, "favorite_count": 0, "lang": "en", "retweeted": false, "in_reply_to_status_id_str": null, "created_at": "Sat Oct 28 13:16:55 +0000 2017", "in_reply_to_user_id_str": null, "is_quote_status": false}'

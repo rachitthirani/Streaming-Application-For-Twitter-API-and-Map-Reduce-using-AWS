@@ -1,0 +1,2 @@
+1. https://blog.insightdatascience.com/getting-started-with-aws-serverless-architecture-tutorial-on-kinesis-and-dynamodb-using-twitter-38a1352ca16d
+2. https://aws.amazon.com/about-aws/whats-new/2016/11/amazon-kinesis-streams-scaling-and-shard-limit-monitoring-using-new-apis/
